@@ -2,12 +2,22 @@ body {
 	font-family: cormorant, serif;
 }
 
+.navbar {
+	margin: 32px;
+}
+
 h1 {
 	display: inline-block;
+	font-weight: 300;
+	margin: 0 32px 0 0;
 }
 
 .links {
 	display: inline-block;
+}
+
+.links ul {
+	padding: 0;
 }
 
 .links li {
@@ -21,3 +31,6 @@ h1 {
 	margin: 0 8px;
 }
 
+a.active {
+	border-bottom: 1px solid black;
+}
