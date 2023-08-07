@@ -35,7 +35,22 @@ a.active {
 	border-bottom: 1px solid black;
 }
 
-img {
-	width: 40%;
-	height: 500px;
+/* Picture area */
+
+.card {
+	width: 49.75%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 20px;
 }
+
+.card img {
+	height: 500px;
+	width: 100%;
+}
+
+.card h2 {
+	display: inline-block;
+}
+
+
