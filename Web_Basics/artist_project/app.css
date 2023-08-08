@@ -60,4 +60,38 @@ a.active {
 	font-weight: 300;
 }
 
+.card img:hover {
+	opacity: 0.9;
+}
+
+/* Footer Section */
+
+.about {
+	width: 40%;
+	min-width: 600px;
+	margin: 100px 0 100px 200px;
+}
+
+
+.about h3 {
+	font-size: 40px;
+	font-weight: 300;
+}
+
+.cta {
+	border-bottom: 1px solid black;
+	display: inline-block;
+	padding-bottom: 8px;
+	margin-top: 0;
+}
+
+.contact {
+	margin-top: 100px;
+}
+
+.contact p {
+	margin: 0;
+	font-size: 20px;
+}
+
 
