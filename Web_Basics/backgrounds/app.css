@@ -1,0 +1,17 @@
+/* .box {
+	border: 20px dashed blue;
+	height: 400px;
+	width: 400px;
+	background-image: url("images/woman.jpg");
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: top;
+	background-clip: padding-box;
+} */
+
+.box {
+	border: 2px solid black;
+	height: 400px;
+	width: 400px;
+	background-image: linear-gradient(blue, red);
+}
